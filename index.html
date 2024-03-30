@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Bootstrap</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body text-center">
+            <a href="#about" class="card-link" style="background-color: #de95ac; padding: 8px 16px; border-radius: 4px; color: #721c24; text-decoration: none; border: none;">About</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body text-center">
+            <a href="#portofolio" class="card-link" style="background-color: #9bc6ea; padding: 8px 16px; border-radius: 4px; color: #721c24; text-decoration: none;border: none;">Favo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body text-center">
+            <a href="#instagram" class="card-link"style="background-color: #de95ac; padding: 8px 16px; border-radius: 4px; color: #721c24; text-decoration: none;border: none;">Insta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<section id="about" class="py-5" style="background-color: rgb(227, 211, 216);">
+    <div class="row">
+      <div class="col text-center">
+        <img src="aqua.jpg" alt="About Me" width="280" height="400">
+      </div>
+      <div class="col-lg-6 d-flex align-items-center">
+        <div>
+          <h2>About Me</h2>
+          <p>Hello! My name is Felinsia Pung Handoko and i am 19 years old. I enjoy trying new things like learning foreign languages, and cosplaying my favorite anime or game characters. To fill my free time, i sometimes watch anime, windah basudara and also play games.  </p>
+          <h3>My Educational Background</h3>
+          <p> Xaverius 1 Elementary School (2011-2016)</p>
+          <p> Xaverius 6 Junior High School (2016 - 2019)</p>
+          <p> Xaverius 3 High School (2019 - 2022)</p>
+          <p> Multi Data University (2022 - 2026)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio Section -->
+  <section id="portofolio" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About My Interest</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="japan.jpg.crdownload" alt="Project 1" class="card-img-top" width="300" height="300">
+            <div class="card-body text-center">
+              <h5 class="card-title">Japan</h5>
+              <p class="card-text">I am very interested in Japan because this country has stunning natural beauty. The Japanese language is characterized by being rich in expressions and nuances, which reflect the country's rich history and traditions. All of this makes me want to continue learning and finding out more about everything related to Japan. Tokyo Disneyland is one of my wishlists if one day i can go to this cherry blossom country.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="aot.jpg" alt="Project 2" class="card-img-top" width="300" height="300">
+            <div class="card-body text-center">
+              <h5 class="card-title">Anime</h5>
+              <p class="card-text">"Attack on Titan" is one of my favorite anime which is very impressive. The story is full of mystery, thrilling action, and complex characters, which made me hooked from the start. This anime tells the story of humanity's battle against man-eating giants known as "Titans" in a world full of uncertainty. This anime combines complex story elements with a unique and interesting depiction of the world. Each episode provides surprises and strong emotions, both in terms of intense battles and in-depth character development.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="jwy.jpeg" alt="Project 3" class="card-img-top" width="300" height="300">
+            <div class="card-body text-center">
+              <h5 class="card-title">Artist</h5>
+              <p class="card-text">Jang Wonyoung is one of my favorite artists from 2019 until now. Known for her extraordinary talent in music and performing arts, she is able to steal the attention of the audience with her unique charm and brilliant artistic skills. Apart from being a member of the music group IVE, she is also known as a person who has strong charisma on stage. Her performances are always energetic and entertaining, able to bring a cheerful atmosphere and amaze the audience with her stunning performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="instagram" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center text-white">My Instagram</h2>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <a href="https://www.instagram.com/felinnnnn?igsh=aGp0MGN4emc5anIx" target="_blank" class="btn btn-outline-primary btn-social">
+              <i class="fab fa-instagram"></i> Follow me!
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Kontak</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Masukkan pesan Anda"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
